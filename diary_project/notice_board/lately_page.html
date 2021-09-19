@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>일기장</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <script src="color.js"></script>
+  </head>
+  <body>
+    <div id="top_banner">
+      <input type="button" value="night" onclick="
+        nightdayHandler(this);
+      ">
+    </div>
+    <div id="header" role="banner">
+      <a href="../index.html"><img src="../일기장_banner.png"></a>
+    </div>
+    <div id="container" role="main">
+      <div id="LIST_LEFT">
+        <div>
+          <ul class="notice_board">
+            <li id="notice_board_top">최근 게시물</li>
+            <li>최근1</li>
+            <li>최근2</li>
+            <li>최근3</li>
+            <li>최근4</li>
+          </ul>
+        </div>
+        <div>
+          <ul class="notice_board">
+            <li id="notice_board_top">일기</li>
+            <li>일기1</li>
+            <li>일기2</li>
+            <li>일기3</li>
+            <li>일기4</li>
+          </ul>
+        </div>
+        <div>
+          <ul class="notice_board">
+            <li id="notice_board_top">편지</li>
+            <li>편지1</li>
+            <li>편지2</li>
+            <li>편지3</li>
+            <li>편지4</li>
+          </ul>
+        </div>
+        <div>
+          <ul class="notice_board">
+            <li id="notice_board_top">독후 감상문</li>
+            <li>독감1</li>
+            <li>독감2</li>
+            <li>독감3</li>
+            <li>독감4</li>
+          </ul>
+        </div>
+      </div>
+      <div id="LIST_RIGHT">
+        <div id="LIST_RIGHT_TOP">
+          <h1>최근 게시물</h1>
+        </div>
+        <div id="LIST_RIGHT_MAIN">
+          <table>
+            <thead class="table table-hover">
+              <tr>
+                <th id="table_head_number">번호</th>
+                <th id="table_head_title">제목</th>
+                <th>작성자</th>
+                <th>작성일</th>
+                <th>조</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>3</td>
+                <td>내일이야기</td>
+                <td>함성준</td>
+                <td>3/9</td>
+                <td>7</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>오늘이야기</td>
+                <td>관리자</td>
+                <td>3/8</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>어제이야기</td>
+                <td>작성자</td>
+                <td>3/7</td>
+                <td>3</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div id="LIST_RIGHT_BOTTOM">
+          <i class="fas fa-edit"></i>
+          <input type="button" value="글쓰기">
+        </div>
+      </div>
+    </div>
+    <div id="footer_inner">
+      gkatjdwns8793@ajou.ac.kr 아주대학교 물리학과 함성준
+    </div>
+  </body>
+</html>

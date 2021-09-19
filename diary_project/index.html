@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>일기장</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="color.js"></script>
+  </head>
+  <body>
+    <div id="top_banner">
+      <input type="button" value="night" onclick="
+        nightdayHandler(this);
+      ">
+    </div>
+    <div id="header" role="banner">
+      <a href="index.html"><img src="일기장_banner.png"></a>
+    </div>
+    <div id="container" role="main">
+      <div id="INT_LEFT">
+        <div>
+          <ul class="notice_board">
+            <h3><a class="link" href="notice_board\lately_page.html">최근 ▶</a></h3>
+            <li>
+            <li>
+            <li>
+            <li>
+          </ul>
+        </div>
+        <div>
+          <ul class="notice_board">
+            <h3><a class="link" href="notice_board\diary_page.html">일기장 ▶</a></h3>
+            <li>
+            <li>
+            <li>
+            <li>
+          </ul>
+        </div>
+        <div>
+          <ul class="notice_board">
+            <h3><a class="link" href="notice_board\letter_page.html">편지 ▶</a></h3>
+            <li>
+            <li>
+            <li>
+            <li>
+          </ul>
+        </div>
+        <div>
+          <ul class="notice_board">
+            <h3><a class="link" href="notice_board\reading_review_page.html">독후감상문 ▶</a></h3>
+            <li>
+            <li>
+            <li>
+            <li>
+          </ul>
+        </div>
+      </div>
+      <div>  </div>
+      <div id="INT_RIGHT">
+        <div id="sign_box">
+          <div id="login_msg">
+          안녕하세요 일기장 겸 제 공간입니다.
+          </div>
+          <div id="login_process">
+            <input type="button" value="diary 로그인" onClick="location.href='./sign/login_page.html'">
+          </div>
+          <div id="sign_option">
+            <div id="look_box">
+              <input type="button" value="아이디">
+              ．
+              <input type="button" value="비밀번호찾기">
+            </div>
+            <div></div><div></div>
+            <div id="link_join">
+              <input type="button" value="회원가입">
+            </div>
+          </div>
+        </div>
+        <div id="calendar">
+          월별 일기
+        </div>
+      </div>
+    </div>
+    <div id="footer_inner">
+      gkatjdwns8793@ajou.ac.kr 아주대학교 물리학과 함성준
+    </div>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <title>WEB</title>
+    <meta charset="utf-8">
+    <script src="colors.js"></script>
+  </head>
+  <body>
+    <h1><a href='index.html'>WEB</a></h1>
+    <input type="button" value="night" onclick="
+      document.querySelector('body').style.backgroundColor='black';
+      document.querySelector('body').style.color='white';
+    ">
+    <input type="button" value="day" onclick="
+      document.querySelector('body').style.backgroundColor='white';
+      document.querySelector('body').style.color='black';
+    ">
+    <input type="button" value="night" onclick="
+      nightdayHandler(this);
+    ">
+    <div id='grid'>
+      <ol>
+        <li><a href='HTML_explain.html'>HTML</a></li>
+        <li><a href='CSS_explain.html'>CSS</a></li>
+        <li><a href='JavaScript_explain.html'>JavaScript</a></li>
+      </ol>
+      <div id='article'>
+        <h2>WEB</h2>
+        <p>
+          The World Wide Web (WWW), commonly known as the Web, is an information system where documents and other web resources are identified by Uniform Resource Locators (URLs, such as https://example.com/), which may be interlinked by hypertext, and are accessible over the Internet.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
